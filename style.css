@@ -1,0 +1,132 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: louvre;
+    src: url(media/fonts/louvre/Louvre.otf);
+}
+
+.louvrefont {
+    font-family: louvre;
+}
+
+.t {
+    font-size: calc(28px + 8vw);
+}
+
+.st {
+    font-size: calc(12px + 1.5vw);
+}
+
+.hero {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.section {
+    min-height: 100vh;
+    background-color: black;
+    z-index: 3;
+}
+
+.navbarouter {
+    position: sticky; /* Keeps it fixed to the top of the viewport */
+    top: 0; /* Set it to stay at the top */
+    z-index: 1000; /* Ensure this is higher than other elements */
+    padding: 1px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; /* Optional: padding for aesthetics */
+    color: white;
+    background-color: rgba(0, 145, 255, 0.2);
+    margin: 15px; /* Increased top margin for more space */
+    border-radius: 15px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.navButton {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#openNav {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 3vw;
+    cursor: pointer;
+}
+
+#navopensymbol {
+    transition: all 500ms ease-in-out;
+    display: inline-block;
+}
+
+#navButtonsInner {
+    display: flex;
+    transition: all 500ms ease-in-out;
+    justify-content: center;
+    margin-top: 5px;
+    gap: 15px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#space {
+    padding: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.sImg {
+    width: 50%;
+    border: 3px solid #cfa717;
+    border-radius: 15px;
+}
+
+.parent {
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.left,
+.right {
+    flex: 1;
+    font-size: calc(12px + 1.5vw);
+}
+
+a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+

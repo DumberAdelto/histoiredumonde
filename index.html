@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Histoire Du Monde</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/lenis@1.1.13/dist/lenis.css" />
+    </head>
+
+    <body>
+        <div class="hero" style="z-index: 2">
+            <div
+                style="
+                    background-image: url(media/images/herobg.jpg);
+                    background-repeat: false;
+                    background-position: center;
+                    background-size: cover;
+                    height: 100vh;
+                    width: 100%;
+                    filter: blur(15px);
+                    position: fixed;
+                    z-index: 1;
+                "></div>
+            <div style="z-index: 2; position: fixed">
+                <h1 class="t louvrefont" style="color: #cfa717">
+                    Histoire Du Monde
+                </h1>
+                <p class="st" style="margin-top: -8vw">and more</p>
+                <div class="navButtons">
+                    <button onclick="toggleNav();" id="openNav">
+                        <span id="navopensymbol">⌵</span>
+                    </button>
+                    <div id="navButtonsInner">
+                        <a href="#space" onclick="toggleNav()" class="navButton"
+                            >Space</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="z-index: 3; position: relative" id="mainContent">
+            <div class="space">
+                <div class="navbarouter">
+                    <div class="navbar">
+                        <h1 class="louvrefont">Histoire Du Monde | Space</h1>
+                    </div>
+                </div>
+                <div class="section" id="space">
+                    <div id="space1mt"></div>
+                    <span
+                        ><h1 class="t" style="line-height: 0.1vw">
+                            Tir Rapide
+                        </h1>
+                        (rapid fire)</span
+                    >
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <hr />
+                    <br />
+                    <br />
+                    <br />
+                    <div class="parent">
+                        <div class="left">
+                            The soviets wanted to be in space before the
+                            americans to prove their technological and
+                            intellectual superiority in the
+                            <a href="https://en.wikipedia.org/wiki/Cold_War"
+                                >Cold war</a
+                            >.
+                        </div>
+                        <img
+                            alt="Sputnik 1 - First artificial satelite in space"
+                            src="media/images/space/sputnik1.jpg"
+                            class="sImg"
+                            draggable="false" />
+                        <div class="right">
+                            - Sputnik 1 was the first artificial satellite in
+                            space.
+                            <br />
+                            <br />
+                            - Launched by the Soviet Union.
+                        </div>
+                    </div>
+                    <div class="parent">
+                        <div class="left">
+                            Another achivement by the Soviet Union. They led the
+                            space race at first, but only because of the amount
+                            of money they were putting in it.
+                        </div>
+                        <img
+                            alt="1961, April, Yuri Gagarin"
+                            src="media/images/space/1961_april_yuri_gagarin.webp"
+                            class="sImg"
+                            draggable="false" />
+                        <div class="right">
+                            - Soviet Cosmonaut <b>Yuri Gagarin</b> was the first
+                            in space.
+                            <br />
+                            <br />
+                            Once America invested some money as well, they were
+                            the ones in the lead.
+                        </div>
+                    </div>
+                    <div class="parent">
+                        <div class="left">
+                            In the highest point of the space race, the US were
+                            vying to achive some big milestones in space
+                            history. Thats where the US came in — with Apollo 8.
+                            Their 2nd manned mission, they strove to reach the
+                            moon. And reach the moon they did.
+                        </div>
+                        <img
+                            alt="Apollo 8 - First manned spaceflight to reach the moon"
+                            src="media/images/space/NASA-Apollo8-Dec24-Earthrise.jpg"
+                            class="sImg"
+                            draggable="false" />
+                        <div class="right">
+                            - Apollo 8 was the first manned human spaceflight to
+                            reach the moon.
+                            <br /><br />
+                            They became the first human spaceflight to reach the
+                            moon. They orbitted the moon 10 times before
+                            touching down back on earth.
+                        </div>
+                    </div>
+                    <div class="parent">
+                        <div class="left">
+                            Marking the end of the space race, Apollo 11 made a
+                            historical milestone, containing the first 2 people
+                            to walk on the moon. Launched on July 16, 1969, Neil
+                            Armstrong and Buzz Aldrin landed the Lunar Module
+                            <i>Eagle</i> on July 20, 1969. They brought back
+                            21.5kg of lunar material.
+                        </div>
+                        <img
+                            alt="Apollo 11 - First landing on the moon"
+                            src="media/images/space/Aldrin_Apollo_11_original.jpg"
+                            class="sImg"
+                            draggable="false" />
+                        <div class="right">
+                            - Neil Armstrong and Buzz Aldren, members of the
+                            Apollo 11 misson were the first people to walk on
+                            the moon.
+                            <br />
+                            <br />
+                            Michael Collins was the pilot, and flew the Command
+                            module <i>Columbia</i> in lunar orbit. They were on
+                            the lunar surface for 21 hours before lifting off to
+                            rejoin Columbia.
+                        </div>
+                    </div>
+                    <hr />
+                    <!-- rovers -->
+                    <h1 class="t" style="text-align: center"><i>Rovers</i></h1>
+                    <h1>The Moon:</h1>
+                    <!-- ussr -->
+                    <div class="parent">
+                        <div class="left" style="font-size: 1em !important">
+                            <h1>USSR</h1>
+                            <p>
+                                Rover: Lunokhod<br />Date of landing: 10
+                                November, 1968<br />Outcome: Launch failure
+                            </p>
+                            <br /><br />
+                            <p>
+                                Rover: Lunokhod 1<br />Date of landing: 17
+                                November, 1970<br />Outcome: Successful
+                            </p>
+                            <br /><br />
+                            <p>
+                                Rover: Lunokhod 2<br />Date of landing: 10
+                                November, 1968<br />Outcome: Successful
+                            </p>
+                            <br /><br />
+                        </div>
+                        <img
+                            alt="Lunokhod"
+                            src="media/images/space/lunokhod.png"
+                            class="sImg"
+                            style="width: 50% !important"
+                            draggable="false" />
+                        <div class="right" style="font-size: 1em !important">
+                            <h1>USSR</h1>
+                            Lunokhod Misson: Luna E-8 No. 201<br /><br /><br /><br /><br /><br />
+                            Lunokhod 1 Misson: Luna 17 (first rover on an
+                            extraterrestrial body)<br /><br /><br /><br /><br /><br />
+                            Lunokhod 2 Misson: Luna 21<br /><br />
+                        </div>
+                    </div>
+<!-- china -->
+                    <div class="parent">
+                        <div class="left" style="font-size: 1em !important">
+                            <h1>CNSA (china)</h1>
+                            <p>
+                                Rover: Yutu<br />Date of landing: 14 December, 2013<br />Outcome: Successful
+                            </p>
+                            <br /><br />
+                            <p>
+                                Rover: Yutu-2<br />Date of landing: 3 January 2019<br />Outcome: Operational
+                            </p>
+                            <br /><br />
+                            <p>
+                                Rover: Jinchan<br />Date of landing: 1st June, 2024<br />Outcome: Successful
+                            </p>
+                            <br /><br />
+                        </div>
+                        <img
+                            alt="Yutu-2"
+                            src="media/images/space/ChangE-4,_Yutu-2_(cropped).png"
+                            class="sImg"
+                            style="width: 50% !important"
+                            draggable="false" />
+                        <div class="right" style="font-size: 1em !important">
+                            <h1>CNSA (china)</h1>
+                            Yutu Misson: Chang'e 3<br /><br /><br /><br /><br /><br />
+                            Yutu-2 Misson: Chang'e 4 (first rover to traverse the far side of the moon)<br /><br /><br /><br /><br /><br />
+                            Jinchan Misson: Chang'e 6<br /><br />
+                        </div>
+                    </div>
+                    <!-- india -->
+                    <div class="parent">
+                        <div class="left" style="font-size: 1em !important">
+                            <h1>ISRO (india)</h1>
+                            <p>
+                                Rover: Pragyan<br />Date of landing: 6 September 2019<br />Outcome: Precluded
+                            </p>
+                            <br /><br />
+                            <p>
+                                Rover: Pragyan (2nd attempt)<br />Date of landing: 23 August, 2023<br />Outcome: Successful
+                            </p>
+                            <br /><br />
+                        </div>
+                        <img
+                            alt="Pragyan (2nd attempt)"
+                            src="media/images/space/Chandrayaan-3s-Pragyan-Rover-on-moon-only-Indian-3.png"
+                            class="sImg"
+                            style="width: 50% !important"
+                            draggable="false" />
+                        <div class="right" style="font-size: 1em !important">
+                            <h1>ISRO (india)</h1>
+                            Pragyan Misson: Chandrayaan 2<br /><br /><br /><br /><br /><br />
+                            Pragyan (2nd Attempt) Misson: Chandrayaan 3 (first rover to land near the lunar south pole successfully)
+                        </div>
+                    </div>
+                    <!-- MBRSC -->
+                    <div class="parent">
+                        <div class="left" style="font-size: 1em !important">
+                            <h1>MBRSC (UAE)</h1>
+                            <p>
+                                Rover: Rashid<br />Date of landing: April 2023<br />Outcome: Precluded
+                            </p>
+                        </div>
+                        <img
+                            alt="Rashid"
+                            src="media/images/space/rashid.avif"
+                            class="sImg"
+                            style="width: 50% !important"
+                            draggable="false" />
+                        <div class="right" style="font-size: 1em !important">
+                            <h1>MBRSC (UAE)</h1>
+                            Rashid misson: Hakuto-R Misson 1
+                        </div>
+                    </div>
+                    <!-- JAXA -->
+
+                    <div class="parent">
+                        <div class="left" style="font-size: 1em !important">
+                            <h1>JAXA (japan)</h1>
+                            <p>
+                                Rover: Sora-Q<br />Date of landing: April 2023<br />Outcome: Preluded
+                            </p>
+                            <br /><br />
+                            <p>
+                                Rover: LEV-1<br />Date of landing: 19 January 2024<br />Outcome: Successful
+                            </p>
+                            <br /><br />
+                            <p>
+                                Rover: LEV-2 (Sora-Q)<br />Date of landing: 19 January 2024<br />Outcome: Successful
+                            </p>
+                            <br /><br />
+                        </div>
+                        <img
+                            alt="Yutu-2"
+                            src="media/images/space/lev-2.png"
+                            class="sImg"
+                            style="width: 50% !important"
+                            draggable="false" />
+                        <div class="right" style="font-size: 1em !important">
+                            <h1>JAXA (japan)</h1>
+                            Sora-Q Misson: Hakuto-R Misson 1<br /><br /><br /><br /><br /><br />
+                            LEV-1 Misson: SLIM<br /><br /><br /><br /><br /><br />
+                            LEV-2 (Sora-Q) Misson: SLIM<br /><br />
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+            integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="script.js"></script>
+    </body>
+</html>
